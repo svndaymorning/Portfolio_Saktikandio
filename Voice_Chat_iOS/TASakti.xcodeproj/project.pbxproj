@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		335AB4BC135C6EF800B6C69B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 335AB4BB135C6EF800B6C69B /* UIKit.framework */; };
+		335AB4BE135C6EF800B6C69B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 335AB4BD135C6EF800B6C69B /* Foundation.framework */; };
+		335AB4C0135C6EF800B6C69B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 335AB4BF135C6EF800B6C69B /* CoreGraphics.framework */; };
+		335AB4C6135C6EF800B6C69B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 335AB4C4135C6EF800B6C69B /* InfoPlist.strings */; };
+		335AB4C9135C6EF800B6C69B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 335AB4C8135C6EF800B6C69B /* main.m */; };
+		335AB4CC135C6EF800B6C69B /* TASaktiAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 335AB4CB135C6EF800B6C69B /* TASaktiAppDelegate.m */; };
+		335AB4CF135C6EF900B6C69B /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 335AB4CD135C6EF900B6C69B /* MainWindow.xib */; };
+		335AB4D2135C6EF900B6C69B /* TASaktiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 335AB4D1135C6EF900B6C69B /* TASaktiViewController.m */; };
+		335AB4D5135C6EF900B6C69B /* TASaktiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 335AB4D3135C6EF900B6C69B /* TASaktiViewController.xib */; };
+		335AB4DC135C6EF900B6C69B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 335AB4BB135C6EF800B6C69B /* UIKit.framework */; };
+		335AB4DD135C6EF900B6C69B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 335AB4BD135C6EF800B6C69B /* Foundation.framework */; };
+		335AB4DE135C6EF900B6C69B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 335AB4BF135C6EF800B6C69B /* CoreGraphics.framework */; };
+		335AB4E6135C6EF900B6C69B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 335AB4E4135C6EF900B6C69B /* InfoPlist.strings */; };
+		335AB4E9135C6EF900B6C69B /* TASaktiTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 335AB4E8135C6EF900B6C69B /* TASaktiTests.h */; };
+		335AB4EB135C6EF900B6C69B /* TASaktiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 335AB4EA135C6EF900B6C69B /* TASaktiTests.m */; };
+		335AB4F5135C6F2400B6C69B /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 335AB4F4135C6F2400B6C69B /* GameKit.framework */; };
+		335AB4F7135C6F3200B6C69B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 335AB4F6135C6F3200B6C69B /* AVFoundation.framework */; };
+		335AB4F9135C76F400B6C69B /* beep.wav in Resources */ = {isa = PBXBuildFile; fileRef = 335AB4F8135C76F400B6C69B /* beep.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		335AB4DF135C6EF900B6C69B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 335AB4AE135C6EF700B6C69B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 335AB4B6135C6EF800B6C69B;
+			remoteInfo = TASakti;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		335AB4B7135C6EF800B6C69B /* TASakti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TASakti.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		335AB4BB135C6EF800B6C69B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		335AB4BD135C6EF800B6C69B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		335AB4BF135C6EF800B6C69B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		335AB4C3135C6EF800B6C69B /* TASakti-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TASakti-Info.plist"; sourceTree = "<group>"; };
+		335AB4C5135C6EF800B6C69B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		335AB4C7135C6EF800B6C69B /* TASakti-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TASakti-Prefix.pch"; sourceTree = "<group>"; };
+		335AB4C8135C6EF800B6C69B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		335AB4CA135C6EF800B6C69B /* TASaktiAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TASaktiAppDelegate.h; sourceTree = "<group>"; };
+		335AB4CB135C6EF800B6C69B /* TASaktiAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TASaktiAppDelegate.m; sourceTree = "<group>"; };
+		335AB4CE135C6EF900B6C69B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		335AB4D0135C6EF900B6C69B /* TASaktiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TASaktiViewController.h; sourceTree = "<group>"; };
+		335AB4D1135C6EF900B6C69B /* TASaktiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TASaktiViewController.m; sourceTree = "<group>"; };
+		335AB4D4135C6EF900B6C69B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TASaktiViewController.xib; sourceTree = "<group>"; };
+		335AB4DB135C6EF900B6C69B /* TASaktiTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TASaktiTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		335AB4E3135C6EF900B6C69B /* TASaktiTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TASaktiTests-Info.plist"; sourceTree = "<group>"; };
+		335AB4E5135C6EF900B6C69B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		335AB4E7135C6EF900B6C69B /* TASaktiTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TASaktiTests-Prefix.pch"; sourceTree = "<group>"; };
+		335AB4E8135C6EF900B6C69B /* TASaktiTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TASaktiTests.h; sourceTree = "<group>"; };
+		335AB4EA135C6EF900B6C69B /* TASaktiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TASaktiTests.m; sourceTree = "<group>"; };
+		335AB4F4135C6F2400B6C69B /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		335AB4F6135C6F3200B6C69B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		335AB4F8135C76F400B6C69B /* beep.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = beep.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		335AB4B4135C6EF800B6C69B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				335AB4F7135C6F3200B6C69B /* AVFoundation.framework in Frameworks */,
+				335AB4F5135C6F2400B6C69B /* GameKit.framework in Frameworks */,
+				335AB4BC135C6EF800B6C69B /* UIKit.framework in Frameworks */,
+				335AB4BE135C6EF800B6C69B /* Foundation.framework in Frameworks */,
+				335AB4C0135C6EF800B6C69B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		335AB4D7135C6EF900B6C69B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				335AB4DC135C6EF900B6C69B /* UIKit.framework in Frameworks */,
+				335AB4DD135C6EF900B6C69B /* Foundation.framework in Frameworks */,
+				335AB4DE135C6EF900B6C69B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		335AB4AC135C6EF700B6C69B = {
+			isa = PBXGroup;
+			children = (
+				335AB4C1135C6EF800B6C69B /* TASakti */,
+				335AB4E1135C6EF900B6C69B /* TASaktiTests */,
+				335AB4BA135C6EF800B6C69B /* Frameworks */,
+				335AB4B8135C6EF800B6C69B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		335AB4B8135C6EF800B6C69B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				335AB4B7135C6EF800B6C69B /* TASakti.app */,
+				335AB4DB135C6EF900B6C69B /* TASaktiTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		335AB4BA135C6EF800B6C69B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				335AB4F6135C6F3200B6C69B /* AVFoundation.framework */,
+				335AB4F4135C6F2400B6C69B /* GameKit.framework */,
+				335AB4BB135C6EF800B6C69B /* UIKit.framework */,
+				335AB4BD135C6EF800B6C69B /* Foundation.framework */,
+				335AB4BF135C6EF800B6C69B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		335AB4C1135C6EF800B6C69B /* TASakti */ = {
+			isa = PBXGroup;
+			children = (
+				335AB4CA135C6EF800B6C69B /* TASaktiAppDelegate.h */,
+				335AB4CB135C6EF800B6C69B /* TASaktiAppDelegate.m */,
+				335AB4CD135C6EF900B6C69B /* MainWindow.xib */,
+				335AB4D0135C6EF900B6C69B /* TASaktiViewController.h */,
+				335AB4D1135C6EF900B6C69B /* TASaktiViewController.m */,
+				335AB4D3135C6EF900B6C69B /* TASaktiViewController.xib */,
+				335AB4C2135C6EF800B6C69B /* Supporting Files */,
+			);
+			path = TASakti;
+			sourceTree = "<group>";
+		};
+		335AB4C2135C6EF800B6C69B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				335AB4F8135C76F400B6C69B /* beep.wav */,
+				335AB4C3135C6EF800B6C69B /* TASakti-Info.plist */,
+				335AB4C4135C6EF800B6C69B /* InfoPlist.strings */,
+				335AB4C7135C6EF800B6C69B /* TASakti-Prefix.pch */,
+				335AB4C8135C6EF800B6C69B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		335AB4E1135C6EF900B6C69B /* TASaktiTests */ = {
+			isa = PBXGroup;
+			children = (
+				335AB4E8135C6EF900B6C69B /* TASaktiTests.h */,
+				335AB4EA135C6EF900B6C69B /* TASaktiTests.m */,
+				335AB4E2135C6EF900B6C69B /* Supporting Files */,
+			);
+			path = TASaktiTests;
+			sourceTree = "<group>";
+		};
+		335AB4E2135C6EF900B6C69B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				335AB4E3135C6EF900B6C69B /* TASaktiTests-Info.plist */,
+				335AB4E4135C6EF900B6C69B /* InfoPlist.strings */,
+				335AB4E7135C6EF900B6C69B /* TASaktiTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		335AB4B6135C6EF800B6C69B /* TASakti */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 335AB4EE135C6EF900B6C69B /* Build configuration list for PBXNativeTarget "TASakti" */;
+			buildPhases = (
+				335AB4B3135C6EF800B6C69B /* Sources */,
+				335AB4B4135C6EF800B6C69B /* Frameworks */,
+				335AB4B5135C6EF800B6C69B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TASakti;
+			productName = TASakti;
+			productReference = 335AB4B7135C6EF800B6C69B /* TASakti.app */;
+			productType = "com.apple.product-type.application";
+		};
+		335AB4DA135C6EF900B6C69B /* TASaktiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 335AB4F1135C6EFA00B6C69B /* Build configuration list for PBXNativeTarget "TASaktiTests" */;
+			buildPhases = (
+				335AB4D6135C6EF900B6C69B /* Sources */,
+				335AB4D7135C6EF900B6C69B /* Frameworks */,
+				335AB4D8135C6EF900B6C69B /* Resources */,
+				335AB4D9135C6EF900B6C69B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				335AB4E0135C6EF900B6C69B /* PBXTargetDependency */,
+			);
+			name = TASaktiTests;
+			productName = TASaktiTests;
+			productReference = 335AB4DB135C6EF900B6C69B /* TASaktiTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		335AB4AE135C6EF700B6C69B /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 335AB4B1135C6EF700B6C69B /* Build configuration list for PBXProject "TASakti" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 335AB4AC135C6EF700B6C69B;
+			productRefGroup = 335AB4B8135C6EF800B6C69B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				335AB4B6135C6EF800B6C69B /* TASakti */,
+				335AB4DA135C6EF900B6C69B /* TASaktiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		335AB4B5135C6EF800B6C69B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				335AB4C6135C6EF800B6C69B /* InfoPlist.strings in Resources */,
+				335AB4CF135C6EF900B6C69B /* MainWindow.xib in Resources */,
+				335AB4D5135C6EF900B6C69B /* TASaktiViewController.xib in Resources */,
+				335AB4F9135C76F400B6C69B /* beep.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		335AB4D8135C6EF900B6C69B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				335AB4E6135C6EF900B6C69B /* InfoPlist.strings in Resources */,
+				335AB4E9135C6EF900B6C69B /* TASaktiTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		335AB4D9135C6EF900B6C69B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		335AB4B3135C6EF800B6C69B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				335AB4C9135C6EF800B6C69B /* main.m in Sources */,
+				335AB4CC135C6EF800B6C69B /* TASaktiAppDelegate.m in Sources */,
+				335AB4D2135C6EF900B6C69B /* TASaktiViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		335AB4D6135C6EF900B6C69B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				335AB4EB135C6EF900B6C69B /* TASaktiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		335AB4E0135C6EF900B6C69B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 335AB4B6135C6EF800B6C69B /* TASakti */;
+			targetProxy = 335AB4DF135C6EF900B6C69B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		335AB4C4135C6EF800B6C69B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				335AB4C5135C6EF800B6C69B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		335AB4CD135C6EF900B6C69B /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				335AB4CE135C6EF900B6C69B /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		335AB4D3135C6EF900B6C69B /* TASaktiViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				335AB4D4135C6EF900B6C69B /* en */,
+			);
+			name = TASaktiViewController.xib;
+			sourceTree = "<group>";
+		};
+		335AB4E4135C6EF900B6C69B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				335AB4E5135C6EF900B6C69B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		335AB4EC135C6EF900B6C69B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		335AB4ED135C6EF900B6C69B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		335AB4EF135C6EF900B6C69B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TASakti/TASakti-Prefix.pch";
+				INFOPLIST_FILE = "TASakti/TASakti-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		335AB4F0135C6EF900B6C69B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TASakti/TASakti-Prefix.pch";
+				INFOPLIST_FILE = "TASakti/TASakti-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		335AB4F2135C6EFA00B6C69B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TASakti.app/TASakti";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TASaktiTests/TASaktiTests-Prefix.pch";
+				INFOPLIST_FILE = "TASaktiTests/TASaktiTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		335AB4F3135C6EFA00B6C69B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TASakti.app/TASakti";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TASaktiTests/TASaktiTests-Prefix.pch";
+				INFOPLIST_FILE = "TASaktiTests/TASaktiTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		335AB4B1135C6EF700B6C69B /* Build configuration list for PBXProject "TASakti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				335AB4EC135C6EF900B6C69B /* Debug */,
+				335AB4ED135C6EF900B6C69B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		335AB4EE135C6EF900B6C69B /* Build configuration list for PBXNativeTarget "TASakti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				335AB4EF135C6EF900B6C69B /* Debug */,
+				335AB4F0135C6EF900B6C69B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		335AB4F1135C6EFA00B6C69B /* Build configuration list for PBXNativeTarget "TASaktiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				335AB4F2135C6EFA00B6C69B /* Debug */,
+				335AB4F3135C6EFA00B6C69B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 335AB4AE135C6EF700B6C69B /* Project object */;
+}
